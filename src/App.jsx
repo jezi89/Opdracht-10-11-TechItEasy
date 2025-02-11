@@ -1,9 +1,14 @@
 import './App.css';
+import TVChecker from './components/TVChecker.jsx';
 
 function App() {
-  return (
-    <h1>Begin hier met met maken van de applicatie!</h1>
-  )
+    return (
+        <div className="App">
+            <header className="App-header">
+                <TVChecker/>
+            </header>
+        </div>
+    );
 }
 
-export default App
+export default App;
