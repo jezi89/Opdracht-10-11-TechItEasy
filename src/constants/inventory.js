@@ -33,7 +33,7 @@ export const bestSellingTv = {
         }
     ],
     originalStock: 52,
-    sold: 17,
+    sold: 4,
 }
 
 // STATISCHE VOORRAAD TV'S
@@ -72,7 +72,7 @@ export let inventory = [
             }
         ],
         originalStock: 23,
-        sold: 2,
+        sold: 9,
     },
     {
         type: 'NH3216SMART',
@@ -108,7 +108,7 @@ export let inventory = [
             }
         ],
         originalStock: 4,
-        sold: 4,
+        sold: 40,
     },
     {
         type: 'QE55Q60T',
@@ -121,7 +121,7 @@ export let inventory = [
         screenQuality: 'Ultra HD/4K',
         smartTv: true,
         sourceImg: 'https://media.s-bol.com/B9n73k76VG2N/vQYEKNn/1200x734.jpg',
-        options:     [
+        options: [
             {
                 name: "wifi",
                 applicable: true,
@@ -144,7 +144,7 @@ export let inventory = [
             }
         ],
         originalStock: 7,
-        sold: 0,
+        sold: 10,
     },
     {
         type: '43HAK6152',
@@ -157,7 +157,7 @@ export let inventory = [
         screenQuality: 'Ultra HD/4K',
         sourceImg: 'https://media.s-bol.com/ROVXLp4q9joq/1200x751.jpg',
         smartTv: true,
-        options:     [
+        options: [
             {
                 name: "wifi",
                 applicable: true,
