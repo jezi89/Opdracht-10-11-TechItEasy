@@ -1,6 +1,6 @@
-import { inventory } from '../constants/inventory.js';
+import {inventory} from 'src/constants/inventory.js';
 
-function TVsSoldHelper () {
+function tvsSoldHelper() {
     let totalTvsSold = 0;
     inventory.forEach(tv => {
         totalTvsSold += tv.sold;
@@ -9,4 +9,4 @@ function TVsSoldHelper () {
     return totalTvsSold;
 }
 
-export default TVsSoldHelper;
+export default tvsSoldHelper;
