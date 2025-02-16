@@ -1,4 +1,4 @@
-// // import TVsSoldHelper from "./helpers/tvsSoldHelper.js";
+// // import TVsSoldHelper from "./helpers/salesHelper.js";
 // import {useEffect, useRef} from 'react';
 // import '../styles/TVCheckerButton.css';
 //

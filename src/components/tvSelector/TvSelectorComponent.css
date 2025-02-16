@@ -1,0 +1,10 @@
+.tvSelector svg rect {
+    fill: #C8AD55;  /* Gouden kleur voor alle selectors */
+}
+
+.tvSelector {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}

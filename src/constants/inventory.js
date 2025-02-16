@@ -33,7 +33,7 @@ export const bestSellingTv = {
         }
     ],
     originalStock: 52,
-    sold: 4,
+    sold: 17,
 }
 
 // STATISCHE VOORRAAD TV'S
@@ -72,7 +72,7 @@ export let inventory = [
             }
         ],
         originalStock: 23,
-        sold: 9,
+        sold: 2,
     },
     {
         type: 'NH3216SMART',
@@ -108,7 +108,7 @@ export let inventory = [
             }
         ],
         originalStock: 4,
-        sold: 40,
+        sold: 4,
     },
     {
         type: 'QE55Q60T',
@@ -144,7 +144,7 @@ export let inventory = [
             }
         ],
         originalStock: 7,
-        sold: 10,
+        sold: 0,
     },
     {
         type: '43HAK6152',
