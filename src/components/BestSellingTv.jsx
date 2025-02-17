@@ -3,9 +3,11 @@ import {bestSellingTv} from "src/constants/inventory.js";
 
 function BestSellingTv() {
     return <div>
-        name {getTvName(bestSellingTv)},
-        price {getTvPrice(bestSellingTv.price)},
-        sizes {getTvSize(bestSellingTv.availableSizes)},
+        <p>name {getTvName(bestSellingTv)}</p>
+
+        <p>price {getTvPrice(bestSellingTv.price)}</p>
+
+        <p>sizes {getTvSize(bestSellingTv.availableSizes)}</p>
     </div>
 }
 
