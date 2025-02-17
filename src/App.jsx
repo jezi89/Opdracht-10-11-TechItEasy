@@ -3,7 +3,8 @@ import TVBoxComponent from "./components/tvBox/TVBoxComponent.jsx";
 import TVSelectorComponent from "./components/tvSelector/TvSelectorComponent.jsx";
 import handleSelect from "./helpers/handleSelect.js";
 import {inventory} from "./constants/inventory.js";
-import BestSellingTv from "./components/BestSellingTv.jsx"
+import {bestSellingTv} from "./constants/inventory.js";
+import RandomSellingTv from "./components/specialTvs/RandomSellingTv.jsx";
 import './App.css';
 
 
@@ -86,7 +87,7 @@ function App() {
                     )}
                 </div>
             </div>
-            <BestSellingTv/>
+            <RandomSellingTv bestSellingTv={bestSellingTv}/>
             <div className="buttons-container">
                 <button className="sort-button" onClick={sortBySold}>
                     Meest verkocht eerst
