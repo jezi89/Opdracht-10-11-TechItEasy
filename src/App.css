@@ -19,7 +19,7 @@
 
 .inventory-list {
     display: flex;
-justify-content: center;
+    justify-content: center;
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
@@ -49,6 +49,11 @@ justify-content: center;
 .inventory-list li:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(2, 48, 71, 0.1);
+}
+
+.tv-info {
+    padding-right: 35px; /* Voegt padding van 5px aan beide zijden toe */
+
 }
 
 .buttons-container {
@@ -94,7 +99,7 @@ justify-content: center;
         grid-template-columns: repeat(2, 1fr);
         padding: 1rem;
     }
-    
+
     .buttons-container {
         flex-wrap: wrap;
     }
@@ -104,16 +109,16 @@ justify-content: center;
     .container {
         padding: 1rem;
     }
-    
+
     .app {
         grid-template-columns: 1fr;
     }
-    
+
     .buttons-container {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .sort-button {
         width: 100%;
         max-width: 300px;
