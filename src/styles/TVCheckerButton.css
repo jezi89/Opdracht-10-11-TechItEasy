@@ -1,0 +1,95 @@
+.tv-checker-button {
+    width: 435px;
+    height: 285px;
+    position: relative;
+}
+
+.svg-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.svg-wrapper.inner {
+    left: 128px;
+    top: 59px;
+}
+
+.clickable {
+    left: 181px;
+    top: 127px;
+    position: absolute;
+}
+
+.hand-icon {
+    left: 200px;
+    top: 145px;
+    position: absolute;
+}
+
+.top-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000;
+    font-size: 16px;
+}
+
+
+.hand-icon:hover path,
+.hand-icon.handicon-effect path {
+    fill: #FFD700; /* Change this color to the desired hover color */
+    stroke: #0a592f; /* Add a black stroke */
+    stroke-width: 1; /* Adjust the stroke width as needed */
+}
+
+.hand-icon:hover::after,
+.hand-icon.show-tooltip::after {
+    content: "Klik voor data"; /* Tooltip text */
+    position: absolute;
+    top: -8px; /* Adjust as needed */
+    left: 35px; /* Adjust as needed */
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: 1px solid transparent;
+    filter: drop-shadow(2px -1.4px #FFD700);
+    border-radius: 1px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 1000;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+
+.clickbox:hover path {
+    cursor: pointer; /* Hide the default cursor */
+}
+
+.clickable {
+    cursor: pointer; /* Hide the default cursor */
+}
+
+.hand-icon:active path {
+    stroke: black; /* Add a black stroke */
+    stroke-width: 1; /* Adjust the stroke width as needed */
+    filter: drop-shadow(0 0 2px black); /* Add a shadow effect */
+    transition: stroke-width 0.2s, filter 0.2s; /* Smooth transition for the effects */
+}
+
+.hand-icon.box-clicked::after,
+.hand-icon:active::after {
+    content: "⌛"; /* Tooltip text */
+    position: absolute;
+    top: -8px; /* Adjust as needed */
+    left: 34px; /* Adjust as needed */
+    background-color: black;
+    border: 1px solid #FFD700;
+    filter: drop-shadow(0 0 2px black); /* Add a shadow effect */
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 8px;
+    z-index: 1000;
+}
+
+

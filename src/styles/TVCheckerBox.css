@@ -1,0 +1,46 @@
+.tv-checker-box {
+    width: 435px;
+    height: 285px;
+    position: relative;
+}
+
+.svg-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.svg-wrapper.inner {
+    left: 128px;
+    top: 59px;
+}
+
+.centered-text {
+    width: 113px;
+    height: 72px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #02542D;
+    font-size: 40px;
+    font-family: 'Inter', serif;
+    font-weight: 800;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.top-text {
+    position: relative;
+    color: #00FF09;
+    font-size: 32px;
+    font-family: 'Jaldi', serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
